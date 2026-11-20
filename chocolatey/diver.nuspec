@@ -4,13 +4,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>diver</id>
-    <version>1.0.0.333</version>
-    <packageSourceUrl>https://github.com/SaaS-To-Bentley/homebrew-diver/tree/main/chocolatey</packageSourceUrl>
+    <version>1.0.0.448</version>
+    <packageSourceUrl>https://github.com/usediver/homebrew-diver/tree/main/chocolatey</packageSourceUrl>
     <owners>Diver</owners>
     <title>Diver</title>
     <authors>Diver</authors>
+    <copyright>Copyright (C) 2026 Mikkel Thygesen</copyright>
     <projectUrl>https://usediver.com/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/SaaS-To-Bentley/homebrew-diver@main/icon.svg</iconUrl>
+    <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.html</licenseUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/usediver/homebrew-diver@main/icon.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>diver deeplinks deep-links uri adb android developer-tools</tags>
     <summary>Build, launch and document deeplinks.</summary>
@@ -21,8 +23,10 @@
 - **Keep** the deeplinks your apps support, per organization and environment, and check that their hosted link files are in place.
 
 Diver can download Android's platform-tools for you if `adb` is not installed.
+
+**Pricing and sign-in.** The Diver app is free to install and use, and is licensed under the GNU AGPL v3. Building URIs, history, and sending to local simulators, Android devices over `adb`, and phones on your network need no account. Sending to "any device on your Diver account", and keeping organizations, apps and deeplinks in your account, requires signing in to a Diver account. Team features (organizations and seats) run on paid subscription plans.
 ]]></description>
-    <releaseNotes>https://github.com/SaaS-To-Bentley/homebrew-diver/releases/tag/v1.0.0-333</releaseNotes>
+    <releaseNotes>https://github.com/usediver/homebrew-diver/releases/tag/v1.0.0-448</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
