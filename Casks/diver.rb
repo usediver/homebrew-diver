@@ -1,8 +1,8 @@
 # Written by Diver's release workflow on every release — an edit here is
 # overwritten by the next one.
 cask "diver" do
-  version "1.0.0,448"
-  sha256 "4b91a854c4eb75ab01cc4bcbf36b2b4861e913e183e0e13ae28d5563ec2a94a2"
+  version "1.0.0,468"
+  sha256 "3e3a4df57ea3ac7497ab9dcc7e0d9bc2b62d6b8f4ff320b92fd759f9669c5c15"
 
   url "https://github.com/usediver/homebrew-diver/releases/download/v#{version.csv.first}-#{version.csv.second}/Diver-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Diver"
