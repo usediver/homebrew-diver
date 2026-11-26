@@ -4,7 +4,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>diver</id>
-    <version>1.0.1.502</version>
+    <version>1.0.1.530</version>
     <packageSourceUrl>https://github.com/usediver/homebrew-diver/tree/main/chocolatey</packageSourceUrl>
     <owners>Diver</owners>
     <title>Diver</title>
@@ -26,7 +26,7 @@ Diver can download Android's platform-tools for you if `adb` is not installed.
 
 **Pricing and sign-in.** The Diver app is free to install and use, and is licensed under the GNU AGPL v3. Building URIs, history, and sending to local simulators, Android devices over `adb`, and phones on your network need no account. Sending to "any device on your Diver account", and keeping organizations, apps and deeplinks in your account, requires signing in to a Diver account. Team features (organizations and seats) run on paid subscription plans.
 ]]></description>
-    <releaseNotes>https://github.com/usediver/homebrew-diver/releases/tag/v1.0.1-502</releaseNotes>
+    <releaseNotes>https://github.com/usediver/homebrew-diver/releases/tag/v1.0.1-530</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
